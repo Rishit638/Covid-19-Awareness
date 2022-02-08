@@ -4,16 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Application to your Spacetrip</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Iteration 1: Add the Astronaut Images -->
+    <img src="https://i1.faceprep.in/ProGrad/space-man-1.png" id="astronaut1">
+    <img src="https://i1.faceprep.in/ProGrad/space-man-2.png" id="astronaut2">
+    <!-- Iteration 2: Create the form tag and add all the required questions using label-->
+    <form>
+        <h1>Rocket around the moon with your BFFS</h1>
+        <label for="country" class="block-display">Departure country</label>
+        <select name="countries" id="countries">
+        <option value="india">India</option>
+        <option value="sweden">Sweden</option>
+        <option value="japan">Japan</option>
+        <option value="china">China</option>
+        <option value="australia">Australia</option>
+        <option value="newzeland">Newzeland</option>
+        <option value="netherland">Netherlands</option>
+        <option value="jamica">Jamaica</option>
+        <option value="u.s.a">U.S.A</option>
+        <option value="mexico">Mexico</option>
+        <option value="brazil">Brazil</option>
+        <option value="mongolia">Mongoia</option>
+        <option value="germany">Germany</option>
+        <option value="belgium">Belgium</option>
+    </select>
+    <label for="travellers" class="block-display">No. of Space Travellers</label>
+    <input type="number" name="travellers" id="travellers">
+    <label for="email" class="block-display">Your space E-mail</label>
+    <input type="text" name="email" id="email" placeholder="I love space@gmail.com">
+    <label for="rent" class="block-display">Do you want to rent a space suit?</label>
+    <input type="radio" id="yes" name="rent-button">
+    <label for="yes" class="rent-label">Yes Please</label>
+    <input type="radio" id="no" name="rent-button">
+    <label for="no">No I have</label>
+    <input type="submit" id="button" value="TAKE US TO SPACE">
 
-               <h2>1.HyperText Markup Language</h2>
-               <h3> 2-Tim Berneslee</h3>
-             <h4> 3.Entertainment site</h4>  
-              <h5>  4. Kane Tanaka</h5>
-              <h6>  5.Dream</h6>
-</div>
-    
+
+    </form>
 </body>
 </html>
